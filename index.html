@@ -988,6 +988,90 @@ img{display:block;max-width:100%}section{scroll-margin-top:80px}
     }
   }
 </style>
+<style>
+  /* ===== BALANCE SECTION ===== */
+
+  #skills {
+    padding-top: 65px !important;
+    padding-bottom: 45px !important;
+  }
+
+  #portfolio {
+    padding-top: 55px !important;
+    padding-bottom: 60px !important;
+  }
+
+  #portfolio > div > h2 {
+    margin-bottom: 35px !important;
+  }
+
+  /* Portfolio card lebih proporsional */
+  #portfolio .project-image {
+    min-height: 260px !important;
+    max-height: 300px;
+    object-fit: cover;
+  }
+
+  #portfolio .bg-slate-800 {
+    min-height: 260px;
+  }
+
+  #portfolio .p-8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  /* Jarak antar project */
+  #portfolio .mt-8 {
+    margin-top: 22px !important;
+  }
+
+  #certificate {
+    padding-top: 60px !important;
+    padding-bottom: 70px !important;
+  }
+
+  /* ===== MOBILE ===== */
+  @media (max-width: 767px) {
+
+    #skills {
+      padding-top: 50px !important;
+      padding-bottom: 35px !important;
+    }
+
+    #portfolio {
+      padding-top: 40px !important;
+      padding-bottom: 45px !important;
+    }
+
+    #portfolio > div > h2 {
+      margin-bottom: 28px !important;
+    }
+
+    #portfolio .project-image {
+      min-height: 190px !important;
+      max-height: 220px;
+    }
+
+    #portfolio .bg-slate-800 {
+      min-height: auto;
+    }
+
+    #portfolio .p-8 {
+      padding: 22px !important;
+    }
+
+    #portfolio .mt-8 {
+      margin-top: 18px !important;
+    }
+
+    #certificate {
+      padding-top: 45px !important;
+      padding-bottom: 55px !important;
+    }
+  }
+</style>
 </head>
 
 <body class="bg-slate-900 text-slate-200 font-sans leading-relaxed scroll-smooth selection:bg-blue-500 selection:text-white">
